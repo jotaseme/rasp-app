@@ -22,7 +22,7 @@ app.route('/')
     res.render('index');
   });
 
-require('./app/controllers/leds')(app);
+require('./app/controllers/led')(app);
 
 
 app.listen(3000, function() {
